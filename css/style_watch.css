@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+.wrapper {
+    background-color: #333333;
+    height: 206px;
+    width: 100%;
+}
+
+.container {
+    width: 1230px;
+    max-width: 1230px;
+    margin: 0 auto;
+
+}
+
+aside {
+    width: 450px;
+    height: 100px;
+    float: left;
+}
+
+.aside {
+    margin-left: 145px;
+}
+
+.directional {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.directional > a {
+    text-decoration: none;
+}
+
+.directional span {
+    font-size: 16px;
+    text-transform: uppercase;
+    
+}
+
+.title-1 {
+    color: #777;
+}
+
+.title-2 {
+    color: #000;
+}
+
+.icon {
+    padding: 0 10px;
+    color: #ddd;
+}
+
+.menu-product {
+    margin-top: 20px;
+    border: 1px solid #777;
+    padding: 10px;
+}
+
+.menu-product h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.menu-product li {
+    padding: 10px 0;
+    border-bottom: 1px dashed #777;
+    list-style: none;
+}
+
+.menu-product li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.fa-chevron-down {
+    margin-left: 168px;
+}
+
+.menu-product li:last-child {
+    border-bottom: none;
+}
+
+/* Aside product */
+
+.box-menu-product img {
+    width: 80px;
+    height: 80px;
+}
+
+.aside-item-product {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px dashed #777;
+    
+}
+
+.name-product {
+    margin-left: 15px;
+}
+
+.name-product h5 {
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.aside-item-product p {
+    font-weight: 700;
+    color: #C89979;
+}
+
+.aside-item-product:last-child {
+    border-bottom: none;
+}
+
+/* Aside post */
+
+.post-menu-product {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px dashed #777;
+}
+
+.post-menu-product:last-child {
+    border-bottom: none;
+}
+
+.post-menu-product img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+}
+
+.post-menu-product span {
+    font-size: 14px;
+}
+
+.title-post {
+    margin-left: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+/* Section */
+
+section {
+    width: 1040px;
+    height: 1200px;
+    float: right;
+}
+
+.section {
+    margin-right: 145px;
+}
+
+.option-section {
+    display: flex;
+    align-items: center;
+    margin-left: 420px;
+    margin-top: 25px;
+}
+
+#choose {
+    width: 250px;
+    height: 40px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin-left: 20px;
+    outline: none;
+}
+
+footer {
+    clear: both;
+}
+
+.signup {
+    clear: both;
+    
+}
+
